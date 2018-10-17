@@ -6,5 +6,5 @@ import PackageDescription
 let package = Package(
 	name: "CNCURSES",
 	pkgConfig: "ncurses",
-	providers: [.Apt("libncurses-dev")]
+	providers: [.apt("libncurses-dev")]
 )
